@@ -17,3 +17,8 @@ SC.ready(function() {
     templateName: 'todos'
   });
 });
+
+Todos.todoListController = SC.ArrayController.create({
+  // Initialize the array controller with an empty array.
+  content: []
+});
